@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-image: url(images/image_7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 900px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar h1 {
+    color: white;
+}
+.container{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+/* .logo{
+    border: 2px solid ;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+} */
+
+#search{
+    background-color: aqua;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
